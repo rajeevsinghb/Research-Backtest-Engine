@@ -23,10 +23,9 @@ EXCHANGE_NAME = "okx"              # exchange id (e.g. "okx", "bybit", "binance"
 TIMEFRAME = "15m"                  # candle timeframe (e.g. "1m", "15m", "1h", "4h", "1d")
 SYMBOLS = [                        # multiple coin pairs to fetch
     "BTC/USDT",
-    "ETH/USDT",
-    "SOL/USDT",
+    
 ]
-SINCE_DATE = "2021-01-01T00:00:00Z"   # from date (ISO 8601, UTC)
+SINCE_DATE = "2026-01-01T00:00:00Z"   # from date (ISO 8601, UTC)
 UNTIL_DATE = None                     # to date (None = fetch till now)
 OUTPUT_DIR = "data/crypto/raw"        # where Parquet files get saved
 LIMIT_PER_CALL = 1000                  # candles per API call (exchange max, usually 1000)
