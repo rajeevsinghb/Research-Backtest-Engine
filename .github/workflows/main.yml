@@ -4,6 +4,9 @@ name: Fetch Crypto OHLCV Data
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write 
+
 jobs:
   fetch-data:
     runs-on: ubuntu-latest
