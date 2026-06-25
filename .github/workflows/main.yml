@@ -24,7 +24,7 @@ jobs:
 
       - name: Run fetch script
         run: |
-          python scripts/fetch/fetch_ccxt.py
+          python fetch_ccxt.py
 
       - name: Commit and push fetched data
         run: |
